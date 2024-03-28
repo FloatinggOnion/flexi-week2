@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #e0e0e0;
+}
+
+.header {
+    text-align: center;
+    margin: 2em auto;
+}
+
+.input {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 60px #bebebe,
+                -15px -15px 60px #ffffff;
+}
+
+.input input[type=text] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 2em;
+    border: none;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #9d9d9d,
+                inset -20px -20px 60px #ffffff;
+    color: #333;
+}
+
+.input button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  7px 7px 15px #8f8f8f,
+             -7px -7px 15px #ffffff;
+}
+
+.prelim {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.cat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cat select {
+    padding: 10px;
+    border-radius: 2em;
+    border: none;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #9d9d9d,
+                inset -20px -20px 60px #ffffff;
+    color: #333;
+}
+
+.input #toggleCase #normalCase {
+    width: 30%;
+}
+
+.card {
+    width: 100px;
+    height: 50px;
+    background-color: #f4f4f4;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 43px;
+    background: linear-gradient(145deg,         #f0f0f0,#cacaca);
+    box-shadow:  10px 10px 30px #a1a1a1,
+             -10px -10px 30px #ffffff;
+}
+#head {
+    color: #333;
+}
+#name {
+    color: #666;
+}
+    
+.people {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    margin: auto;
+}

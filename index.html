@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wk1: JS Refresher</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header">
+        <h2>Array Demo</h2>
+        <p>Add names to the array and display them</p>
+    </div>
+
+    <div class="input">
+        <div class="prelim">
+            <div class="cat">
+                <label for="category">Select Category</label>
+                <select name="category" id="category">
+                    <option value="add">Add</option>
+                    <option value="search">Search</option>
+                </select>
+            </div>
+            <button id="toggleCase" onclick="toggleCase()">Upper Case</button>
+            <button id="normalCase" onclick="normalCase()">Normal Case</button>
+        </div>
+        <label for="input">Enter Name</label>
+        <input type="text" id="input" placeholder="Enter Name">
+        <button id="btn" onclick="work()">Submit</button>
+    </div>
+
+    <div class="people" id="people">
+        
+    </div>
+
+    <!-- <div class="card">
+        <button id="delete">X</button>
+        <h2 id="head">Person</h2>
+        <p id="name"></p>
+    </div> -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
